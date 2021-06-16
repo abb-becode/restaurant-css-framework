@@ -1,1 +1,37 @@
+$rede01e3c : #e01e3c;
+$red11a33 : #c11a33;
+@mixin transition($transition...) {
+    -moz-transition:    $transition !important;
+    -o-transition:      $transition !important;
+    -webkit-transition: $transition !important;
+    transition:         $transition !important;
+}
+._btn-variant {
+    color: white !important;
+    border-color: $rede01e3c  !important;
+    background-color: $rede01e3c  !important;
+    font-weight: bold !important;
+    &:hover {
+        /* "to left" / "to right" - affects initial color */
+        background-position: left;
+        border-color: $red11a33 !important;
+        background: linear-gradient(to left, $red11a33 50%, $rede01e3c 50%) right;
+        background-size: 200%;
+        @include transition(.5s ease-out);
+    }
+    
+
+}  
+.uc {
+    text-transform: uppercase;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.mr-25 {
+    margin-right: 25px;
+}
 
