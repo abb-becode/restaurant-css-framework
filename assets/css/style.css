@@ -32,5 +32,11 @@
   margin-right: 25px;
 }
 
+.jumbotron-bg-image {
+    background-image: url('img/photo-page-accueil.webp'); 
+    background-size: cover;
+    height: 400px;
+} 
+
 /*# sourceMappingURL=style.css.map */
 
