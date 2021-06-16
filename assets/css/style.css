@@ -33,7 +33,7 @@
 }
 
 .jumbotron-bg-image {
-    background-image: url('img/photo-page-accueil.webp'); 
+    background-image: url('assets/img/photo-page-accueil.webp'); 
     background-size: cover;
     height: 400px;
 } 
