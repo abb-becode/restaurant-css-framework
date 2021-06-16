@@ -1,1 +1,36 @@
+._btn-variant {
+  color: white !important;
+  border-color: #e01e3c !important;
+  background-color: #e01e3c !important;
+  font-weight: bold !important;
+}
+._btn-variant:hover {
+  /* "to left" / "to right" - affects initial color */
+  background-position: left;
+  border-color: #c11a33 !important;
+  background: linear-gradient(to left, #c11a33 50%, #e01e3c 50%) right;
+  background-size: 200%;
+  -moz-transition: 0.5s ease-out !important;
+  -o-transition: 0.5s ease-out !important;
+  -webkit-transition: 0.5s ease-out !important;
+  transition: 0.5s ease-out !important;
+}
+
+.uc {
+  text-transform: uppercase;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
 
