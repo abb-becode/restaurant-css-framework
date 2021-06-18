@@ -57,13 +57,13 @@ body {
 }
 
 .jumbotron-bg-image {
-  background-image: url("photo-page-accueil.webp");
+  background-image: url("../img/photo-page-accueil.webp");
   background-size: cover;
   height: 400px;
 }
 
 .logo {
-  background-image: url("logo.png");
+  background-image: url("../img/logo.png");
   width: 69px;
   height: 58px;
 }
