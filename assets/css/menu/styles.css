@@ -1,74 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-body, div.container-fluid {
+div.menu {
   background-color: #faf7f6;
-  color: #3c1b1f;
-}
-
-h1, h2, h3, .price {
-  font-family: "Nunito Sans", sans-serif;
-}
-
-h1, h2 {
-  font-weight: 400;
-}
-
-h2 {
-  background-color: #3c1b1f;
-  color: #faf7f6;
-  border-radius: 0.25rem;
-}
-
-h3, .price {
-  font-weight: 600;
-  font-size: 1.4em;
-}
-
-p, span.cart {
-  font-family: "Halant", serif;
-}
-
-p {
-  opacity: 0.7;
-}
-
-li.list-group-item {
-  background-color: #faf7f6;
-  color: #3c1b1f;
-  border-radius: 0 0.25rem 0.25rem 0.25rem;
-}
-
-span.badge {
-  background-color: #b21e4b;
-}
-
-li.list-group-item div.row:last-child {
-  float: right;
-}
-
-.price {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-span.cart {
-  font-weight: 200;
-  font-size: 1.2em;
-  color: #b21e4b;
-}
-
-a {
-  text-decoration: none;
-  visibility: collapse;
-}
-
-li:hover a {
-  visibility: visible;
-}
+  color: #3c1b1f; }
+  div.menu h1 {
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif; }
+  div.menu h2 {
+    font-weight: 400;
+    background-color: #3c1b1f;
+    color: #faf7f6;
+    border-radius: 0.25rem; }
+  div.menu h2, div.menu h3, div.menu .price {
+    font-family: "Nunito Sans", sans-serif; }
+  div.menu h3 {
+    font-weight: 600; }
+  div.menu p, div.menu span.cart {
+    font-family: "Halant", serif; }
+  div.menu p {
+    opacity: 0.7; }
+  div.menu li.list-group-item {
+    background-color: #faf7f6;
+    color: #3c1b1f;
+    border-radius: 0 0.25rem 0.25rem 0.25rem; }
+  div.menu span.badge {
+    background-color: #b21e4b; }
+  div.menu li.list-group-item div.row:last-child {
+    float: right; }
+  div.menu .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    font-size: 1.4em; }
+  div.menu span.cart {
+    font-weight: 200;
+    font-size: 1.2em;
+    color: #b21e4b; }
+  div.menu a {
+    text-decoration: none;
+    visibility: collapse; }
+  div.menu li:hover a {
+    visibility: visible; }
 
 /*# sourceMappingURL=styles.css.map */

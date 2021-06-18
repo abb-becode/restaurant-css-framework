@@ -11,84 +11,89 @@ $beigefaf7f6 : #faf7f6;
   box-sizing: border-box;
 }
 
-//Styles of titles----------------------------------------------
+div.menu {
 
-body, div.container-fluid {
+
   background-color: $beigefaf7f6;
   color: $brown3c1b1f;
-}
 
-//Styles of titles----------------------------------------------
+  //Styles of titles----------------------------------------------
 
-h1, h2, h3, .price {
-  font-family: 'Nunito Sans', sans-serif;
-}
+  h1 {
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+  }
 
+  h2 {
+    font-weight: 400;
+    background-color: $brown3c1b1f;
+    color: $beigefaf7f6;
+    border-radius: 0.25rem;
+  }
 
-h1, h2 {
-  font-weight: 400;
-}
+  h2, h3, .price {
+  font-family: "Nunito Sans", sans-serif;
+  }
 
-h2 {
-  background-color: $brown3c1b1f;
-  color: $beigefaf7f6;
-  border-radius: .25rem;
-}
+  h3 {
+    font-weight: 600;
+  }
 
-h3, .price {
-  font-weight: 600;
-  font-size: 1.4em;
-}
+  //General style of paragraph----------------------------------------------
 
-//General style of paragraph----------------------------------------------
+  p, span.cart {
+    font-family: "Halant", serif;
+  }
 
-p, span.cart {
-  font-family: 'Halant', serif;
-}
+  p {
+    opacity: 0.7;
+  }
 
-p {
-  opacity: .7;
-}
+  //Items look----------------------------------------------
 
-//Items look----------------------------------------------
-
-li {
-  &.list-group-item {
+  li.list-group-item {
     background-color: $beigefaf7f6;
     color: $brown3c1b1f;
-    border-radius: 0 .25rem .25rem .25rem;
+    border-radius: 0 0.25rem 0.25rem 0.25rem;
+  }
+
+  span.badge {
+    background-color: $redb21e4b;
+  }
+
+  li.list-group-item div.row:last-child {
+    float: right;
+  }
+
+  //Price look----------------------------------------------
+
+  .price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    font-size: 1.4em;
+  }
+
+  //The call-to-action look and behavior----------------------------------------------
+
+  span.cart {
+    font-weight: 200;
+    font-size: 1.2em;
+    color: $redb21e4b;
+  }
+
+  a {
+    text-decoration: none;
+    visibility: collapse;
+  }
+
+  li:hover a {
+    visibility: visible;
   }
 }
 
-//Price look----------------------------------------------
 
-span.badge {
-  background-color: $redb21e4b;
-}
 
-li.list-group-item div.row:last-child {
-  float: right;
-}
 
-.price {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
-//The call-to-action look and behavior----------------------------------------------
-
-span.cart {
-  font-weight: 200;
-  font-size: 1.2em;
-  color: $redb21e4b;
-}
-
-a {
-  text-decoration: none;
-  visibility: collapse;
-}
-
-li:hover a {
-  visibility: visible;
-}
