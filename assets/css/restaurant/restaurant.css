@@ -1,8 +1,8 @@
-h1 #rest {
+h1 {
   text-align: center;
 }
 
-h2 #rest {
+h2 {
   text-transform: uppercase;
 }
 
@@ -12,8 +12,8 @@ h2 #rest {
   /*padding: auto;*/
 }
 
-table #rest, th, td {
-  border: 1px black solid;
+table, th, td {
+  border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
 }/*# sourceMappingURL=restaurant.css.map */
