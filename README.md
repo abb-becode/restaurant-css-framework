@@ -5,7 +5,7 @@
 Window web site for a Pizzeria.
 Created in mid-june 2021 during the first month of our web-developer training at BeCode.org.
 
-[**Instruction**](https://github.com/becodeorg/CRL-Keller-3.31/blob/master/LearningPath/01.The-Field/07.Bootstrap/restaurant.md)
+[**Instructions**](https://github.com/becodeorg/CRL-Keller-3.31/blob/master/LearningPath/01.The-Field/07.Bootstrap/restaurant.md)
 
 ## Team Members
 * [Elsa Magalhães](https://github.com/Magael) | @Magael 
@@ -31,4 +31,4 @@ Yes it is 📱
 
 ## Changelog
 ### v.1.0.0
-* Inital release
+* [Inital release](https://abb-becode.github.io/restaurant-css-framework/index.html)
