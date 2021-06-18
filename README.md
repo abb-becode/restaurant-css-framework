@@ -35,7 +35,7 @@ Yes it is 📱
 [Menu](assets/img/sc-menu.png)
 [Restaurant](assets/img/sc-restaurant.png)
 [Pictures](assets/img/sc-pictures.png)
-[Contact](assets/img/sc-contact.png)
+[Contact](sc-contact.png)
 
 ## Changelog
 ### v.1.0.0
