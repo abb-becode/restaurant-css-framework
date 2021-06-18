@@ -23,9 +23,9 @@ Created in mid-june 2021 during the first month of our web-developer training at
 ## Images banks
 *royality-free*
 
-[Unsplash](https://unsplash.com/)
-[Free Icons](https://www.freeiconspng.com)
-[PNG Item](https://www.pngitem.com)
+* [Unsplash](https://unsplash.com/)
+* [Free Icons](https://www.freeiconspng.com)
+* [PNG Item](https://www.pngitem.com)
 
 ## Responsive ?
 Yes it is 📱
