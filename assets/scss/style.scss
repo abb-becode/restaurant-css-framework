@@ -1,5 +1,17 @@
-$rede01e3c : #e01e3c;
-$red11a33 : #c11a33;
+/*import google fonts*/
+@import url("https://fonts.googleapis.com/css?family=Nunito Sans");
+body {
+  /*max-width: 90%;
+  margin: auto;*/
+  background-color: #FAF7F6;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+/*$rede01e3c : #e01e3c;*/
+$rede01e3c : #B21E4B;
+/*$red11a33 : #c11a33;*/
+$red11a33 : #9d0131;
 @mixin transition($transition...) {
     -moz-transition:    $transition !important;
     -o-transition:      $transition !important;
@@ -34,9 +46,83 @@ $red11a33 : #c11a33;
 .mr-25 {
     margin-right: 25px;
 }
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 400px; /* only if you want fixed height */   
+}
+.img-fluid {
+    max-width: 100% import !important;
+    height: auto !important
+}
 .jumbotron-bg-image {
-    background-image: url('../img/photo-page-accueil.webp'); 
+    background-image: url('photo-page-accueil.webp'); 
     background-size: cover;
     height: 400px;
-} 
+}
+.logo {
+    background-image: url('logo.png'); 
+    width: 69px;
+    height: 58px;
+}  
+.cc-3C1B1F {
+    color:#3C1B1F !important;
+}
+.pl-12 {
+    padding-left: 12px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.bgc-eadeda {
+    background-color: #EADEDA;
+}
+.tc-3c1b1f {
+    color: #B21E4B;
+}
+.p-10 {
+    padding:10px;
+}
+._p-3 {
+    padding:3px !important;
+}
+.ml-5 {
+    margin-left:5px;
+}
+.fs-12 {
+    font-size: 12px !important;
+}
+.fs-14 {
+    font-size:14px !important;
+}
+.fs-13 {
+    font-size:13px !important;
+}
+.btn-lord {
+    width:100px !important;
+    margin:0px !important;  
+}
+.btn-lord-w70 {
+    width:70px !important;
+    margin:0px !important;  
+}
+.td-none {
+    text-decoration: none !important;
+}
+.pr-10 {
+    padding-right:10px !important;
+}
+.mt-15 {
+    margin-top: 15px !important;
+}
 
+.panel-phone-email {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.w-100 {
+    width: 100% !important;
+}
