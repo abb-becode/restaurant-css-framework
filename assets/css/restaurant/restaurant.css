@@ -1,4 +1,8 @@
-h2 {
+h1 #rest {
+  text-align: center;
+}
+
+h2 #rest {
   text-transform: uppercase;
 }
 
@@ -8,7 +12,7 @@ h2 {
   /*padding: auto;*/
 }
 
-table, th, td {
+table #rest, th, td {
   border: 1px black solid;
   border-collapse: collapse;
   text-align: center;
