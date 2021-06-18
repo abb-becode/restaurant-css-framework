@@ -2,7 +2,7 @@
 ![logo](https://user-images.githubusercontent.com/84738219/122524450-6c516c00-d018-11eb-8269-cce47e8b5ac4.png)
 
 ## Bootsrap Project
-Window web site for a Pizzeria.
+Window web site for a Pizzeria. <br>
 Created in mid-june 2021 during the first month of our web-developer training at BeCode.org.
 
 [**Instructions**](https://github.com/becodeorg/CRL-Keller-3.31/blob/master/LearningPath/01.The-Field/07.Bootstrap/restaurant.md)
@@ -21,7 +21,7 @@ Created in mid-june 2021 during the first month of our web-developer training at
 * JavaScript (a little)
 
 ## Images banks
-*royality-free*
+*royality-free* ✅ 
 
 * [Unsplash](https://unsplash.com/)
 * [Free Icons](https://www.freeiconspng.com)
