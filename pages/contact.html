@@ -33,38 +33,38 @@
     </head>
 
 
-    <body>
+    <body style="background-color: #eadeda;">
         <!-- Header #navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="index.html">
                     <img src="../assets/img/logo.png" alt="" width="69" height="58">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Restaurant</a>
+                            <a class="nav-link" href="restaurant.html">Restaurant</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Pictures
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Page 1</a></li>
-                            <li><a class="dropdown-item" href="#">Page 2</a></li>
-                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Page 1</a></li>
+                            <li><a class="dropdown-item" href="gallery1.html"></a></li>
+                            <li><a class="dropdown-item" href="gallery2.html">Page 3</a></li>
                             <!--<li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">...</a></li>-->
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -78,9 +78,9 @@
         <!--Section: Contact -->
         <section class="my-5"></section>
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-5">Contact</h2>
+            <h2 class="h1-responsive font-weight-bold text-center my-5" style="color: #3C1D1F; font-size: 50px;">Contact</h2>
             <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+            <p class="text-center w-responsive mx-auto mb-5" style="color: #3C1D1F;">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
                 a matter of hours to help you.</p>
 
             <!-- Grid row -->
@@ -94,7 +94,7 @@
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-4">
-                                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First name">
+                                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First name" style="color: #3C1B1F; background-color: #faf7f6;">
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -102,7 +102,7 @@
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-4">
-                                    <input type="text" id="lastName" name="lastName" class="form-control " placeholder="Last name">
+                                    <input type="text" id="lastName" name="lastName" class="form-control " placeholder="Last name" style="color: #3C1B1F; background-color: #faf7f6;">
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -110,7 +110,7 @@
                             <!--Grid column-->
                             <div class="col-md-12">
                                 <div class="md-form mb-4">
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" style="color: #3C1B1F; background-color: #faf7f6;">
                                 </div>
                             </div>
                             <!--Grid column-->
@@ -123,7 +123,7 @@
 
                             <div class="col-md-12">
                                 <div class="md-form mb-4">
-                                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Subject">
+                                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Subject" style="color: #3C1B1F; background-color: #faf7f6;">
                                     <datalist id="datalistOptions">
                                         <option value="Option 1">
                                         <option value="Option 2">
@@ -143,7 +143,7 @@
                             <!--Grid column-->
                             <div class="col-md-12">
                                 <div class="md-form mb-4">
-                                    <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Message"></textarea>
+                                    <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Message" style="color: #3C1B1F; background-color: #faf7f6;"></textarea>
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@
 
                     <!-- Button -->
                     <div class="text-center text-md-left mb-4">
-                        <a class="btn btn-primary btn-block far fa-paper-plane" onclick="validateForm();" type="submit" value="Submit"> Send</a>
+                        <button type="submit" class="btn btn-block far fa-paper-plane" style="background-color:#B21E4B;"> Submit</button>
                     </div>
                     <!-- Button -->
                 
@@ -171,16 +171,16 @@
                 <!--Grid column-->
                 <div class="col-md-3 text-center">
                     <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>6000 Charleroi, BE</p>
+                        <li><i class="fas fa-map-marker-alt fa-2x" style="color: #B21E4B;"></i>
+                            <p style="color: #3C1D1F;">42 Grand Place <br>1000 Brussels BE</p>
                         </li>
 
-                        <li><i class="fas fa-phone fa-2x mt-4 blue-text"></i>
-                            <p>+32 70 38 20 15</p>
+                        <li><i class="fas fa-phone fa-2x mt-4 blue-text" style="color: #B21E4B;"></i>
+                            <p style="color: #3C1D1F;">+32 800 12 12 12</p>
                         </li>
 
-                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p>contact@pizzalord.be</p>
+                        <li><i class="fas fa-envelope mt-4 fa-2x" style="color: #B21E4B;"></i>
+                            <p style="color: #3C1D1F;">contact@pizzalord.be</p>
                         </li>
                     </ul>
                 </div>
