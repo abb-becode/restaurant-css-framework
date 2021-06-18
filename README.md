@@ -31,7 +31,11 @@ Created in mid-june 2021 during the first month of our web-developer training at
 Yes it is 📱
 
 ## Screnshots 
-`[wip - insert screeshots]`
+[Home](assets/img/sc-home.png)
+[Menu](assets/img/sc-menu.png)
+[Restaurant](assets/img/sc-restaurant.png)
+[Pictures](assets/img/sc-pictures.png)
+[Contact](assets/img/sc-contact.png)
 
 ## Changelog
 ### v.1.0.0
