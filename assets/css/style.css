@@ -121,3 +121,25 @@ body {
   width: 100% !important;
 }
 /*# index.html*/
+
+/*#validation form*/
+/* formatting for errors  */
+.invalid {
+  border: 1px solid #900 !important;
+  background-color: rgb(248, 246, 149) !important;
+}
+.valid{
+  border: 1px solid #ced4da;
+  background-color: #faf7f6;
+}
+.error {
+  width  : 100%;
+  margin-top:5px;
+  font-size: 80%;
+  color: #900;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+/*#validation form*/
