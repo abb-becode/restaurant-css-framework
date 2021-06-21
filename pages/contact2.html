@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+
+        <title>Contact</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/modal.css">
+        
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+
+    </head>
+
+
+    <body style="background-color: #eadeda;">
+        <!-- Header #navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/logo.png" alt="" width="69" height="58">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="restaurant.html">Restaurant</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pictures
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="gallery.html">Page 1</a></li>
+                            <li><a class="dropdown-item" href="gallery1.html">Page 2</a></li>
+                            <li><a class="dropdown-item" href="gallery2.html">Page 3</a></li>
+                            <!--<li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">...</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn _btn-variant uc mr-10 " type="button" data-bs-toggle="modal" data-bs-target="#myModal2">order now</button>
+                    </div>
+                </div>
+            </div>       
+        </nav>
+        <!-- #navbar-->  
+            
+        <!--Section: Contact -->
+        <section class="my-5"></section>
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-5" style="color: #3C1D1F; font-size: 50px;">Contact</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5" style="color: #3C1D1F;">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <!-- Grid row -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <div class="container">
+                <div class="row ml-2">
+                    <div class="col-ms-9 col-md-9 col-lg-9 col-xl-9 mb-md-0 mb-5">
+                        <div class="container">
+                        <form>
+                            <div class="row" >
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="md-form mb-4">
+                                        <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First name" style="color: #3C1B1F; background-color: #faf7f6;">
+                                        <span id="fn-error" class="error" aria-live="polite"></span>                               
+                                    </div>
+                                </div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="md-form mb-4">
+                                        <input type="text" id="lastName" name="lastName" class="form-control " placeholder="Last name" style="color: #3C1B1F; background-color: #faf7f6;">
+                                        <span id="ln-error" class="error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                                <div class="col-ms-5 col-md-5 col-lg-5 col-xl-5">
+                                    <div class="md-form mb-4">
+                                        <input id="email" name="email" class="form-control" placeholder="Email" style="color: #3C1B1F; background-color: #faf7f6;">
+                                        <span id="email-error" class="error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                                <div class="col-ms-10 col-md-10 col-lg-10 col-xl-10">
+                                    <div class="md-form mb-4">
+                                        <input type="text" id="subject" name="subject" class="form-control"  placeholder="Subject" style="color: #3C1B1F; background-color: #faf7f6;">
+                                        <span id="subject-error" class="error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                                <div class="col-ms-10 col-md-10 col-lg-10 col-xl-10">
+                                    <div class="md-form mb-4">
+                                        <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Message" style="color: #3C1B1F; background-color: #faf7f6;"></textarea>
+                                        <span id="message-error" class="error" aria-live="polite"></span>
+                                    </div>
+                                </div>
+                                <div class="col-ms-2 col-md-2 col-lg-2 col-xl-2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4"></div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="custom-control custom-checkbox mb-4 text-center">
+                                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                                    </div>
+                                </div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4"></div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="text-center text-md-left mb-4">
+                                        <button class="btn btn-block far fa-paper-plane" id="validate" type="submit" style="background-color:#B21E4B;"> Submit</button>
+                                    </div>
+                                </div>
+                                <div class="col-ms-4 col-md-4 col-lg-4 col-xl-4"></div>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+
+                    <div class="col-ms-3 col-md-3 col-lg-3 col-xl-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x" style="color: #B21E4B;"></i>
+                                <p style="color: #3C1D1F;">42 Grand Place <br>1000 Brussels BE</p>
+                            </li>
+
+                            <li><i class="fas fa-phone fa-2x mt-4 blue-text" style="color: #B21E4B;"></i>
+                                <p style="color: #3C1D1F;">+32 800 12 12 12</p>
+                            </li>
+
+                            <li><i class="fas fa-envelope mt-4 fa-2x" style="color: #B21E4B;"></i>
+                                <p style="color: #3C1D1F;">info@pizzalord.be</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section: Contact--> 
+
+        <!-- Footer -->
+    <footer>
+        <div class="p-4 border-bottom"></div>
+            <div class="container mt-3">
+                <div class="row ">
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 ">
+                        <div class="row  fs-13">
+                            <span class="text-uppercase fw-bold  cc-3C1B1F fs-12" >
+                                <img src="../assets/img/footer-logo.png" alt="" width="20" height="17">Pizza Lord
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <div class="row"><span class="text-uppercase fw-bold cc-3C1B1F fs-14">About</span></div>
+                        <div class="row fs-13"><a href="#" class="text-reset td-none">Services</a></div>
+                        <div class="row fs-13"><a href="#" class="text-reset td-none">Job opportunities</a></div>
+                        <div class="row fs-13"><a href="#" class="text-reset td-none">Calendar of events</a></div>
+                        <div class="row fs-13"><a href="#" class="text-reset td-none">Location</a></div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <div class="row"><span class="text-uppercase fw-bold cc-3C1B1F fs-14">Products</span></div>
+                        <div class="row fs-13"><a href="#" class="text-reset td-none">Pizzas</a></div>
+                        <div class="row  fs-13"><a href="#" class="text-reset td-none">Salads</a></div>
+                        <div class="row  fs-13"><a href="#" class="text-reset td-none">Drinks</a></div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="row  fs-13"><span class="text-uppercase fw-bold cc-3C1B1F fs-14">Contact</span></div>
+                        <div class="row pl-12 fs-13">42 Grand Place 1000 Brussels</div>
+                        <div class="row pl-12  fs-13">info@pizzalord.be</div>
+                        <div class="row pl-12  fs-13">Tél: 0800 12 12 12</div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="row  fs-13"><span class="text-uppercase fw-bold cc-3C1B1F fs-14">Get connected with us:</span></div>
+                        <div class="row pl-12  fs-13">
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                <a href="#" class="text-reset td-none"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                <a href="#" class="text-reset td-none"><i class="fab fa-twitter"></i></a>
+                            </div>	
+                                <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                    <a href="#" class="text-reset td-none"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                <a href="#" class="text-reset td-none"><i class="fab fa-google"></i></a>
+                            </div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                <a href="#" class="text-reset td-none"><i class="fab fa-github"></i></a>
+                            </div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                                <a href="#" class="text-reset td-none"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <span class="fs-13">© 2021 Copyright:</span><a class="text-reset fw-bold pl-5 fs-13" href="https://pizzalord.be/">pizzalord.be</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    <!-- Modal Order now-->
+    <div class="modal right fade" id="myModal2" tabindex="-1" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold cc-3C1B1F text-uppercase" id="exampleModalLabel">Order now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Give us a call or fill in the form below and we'll contact you. 
+                        We endeavor to answer all inquiries within 24 hours on business days.
+                    </p>
+                    <div class="panel-phone-email">
+                        <div class="container"> 
+                            <div class="row bgc-eadeda">
+                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12  tc-3c1b1f">
+                                    <i class="fas fa-phone-alt pr-10"></i>(0800) 12 12 12</a>
+                                </div>
+                            </div>
+                            <div class="row mt-15">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Your email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    <button class="btn _btn-variant uc mr-10 w-100" type="button" onclick="success();" data-bs-toggle="modal" data-bs-target="#myModal2">send message</button>
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Order now-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+
+        <!-- JavaScript Validation -->
+        <script>
+            function validateEmail(email) {
+                const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(email);
+            }
+            function validateForm() {
+                var fname = document.getElementById('firstName');
+                var fnerror = document.getElementById('fn-error');
+
+                var lname = document.getElementById('lastName');
+                var lnerror = document.getElementById('ln-error');
+
+                var email = document.getElementById('email');
+                var emailerror = document.getElementById('email-error');
+
+                var subject = document.getElementById('subject');
+                var subjecterror = document.getElementById('subject-error');
+
+                var message = document.getElementById('message');
+                var messageerror = document.getElementById('message-error');
+
+                var success = false;
+
+                //test first name
+                if (fname.value.trim() == "") {
+                    // display error message if firstname is invalid
+                    fname.className = "form-control invalid";
+                    fnerror.innerHTML = "Required, must not be empty !";
+                    fnerror.className = "error active";
+                    return false;
+                }
+                else {
+                    // remove error if the field is valid
+                    fname.className = "form-control";
+                    fnerror.innerHTML = ""; // initialize the content
+                    fnerror.className = "error";
+                }
+
+                //test last name
+                if (lname.value.trim() == "") {
+                    // display error message if firstname is invalid
+                    lname.className = "form-control invalid";
+                    lnerror.innerHTML = "Required, must not be empty !";
+                    lnerror.className = "error active";
+                    return false;
+                }
+                else {
+                    // remove error if the field is valid
+                    lname.className = "form-control";
+                    lnerror.innerHTML = ""; // initialize the content
+                    lnerror.className = "error";
+                }
+
+                //test email
+                if (!validateEmail(email.value)) {
+                    // display error message if firstname is invalid
+                    email.className = "form-control invalid";
+                    emailerror.innerHTML = "Email format not correct! (ex: john@domain.com)";
+                    emailerror.className = "error active";
+                    return false;
+                }
+                else {
+                    // remove error if the field is valid
+                    email.className = "form-control";
+                    emailerror.innerHTML = ""; // initialize the content
+                    emailerror.className = "error";
+                }
+                
+                //test subject
+                if (subject.value.trim() == "") {
+                    // display error message if firstname is invalid
+                    subject.className = "form-control invalid";
+                    subjecterror.innerHTML = "Required, must not be empty !";
+                    subjecterror.className = "error active";
+                    return false;
+                }
+                else {
+                    // remove error if the field is valid
+                    subject.className = "form-control";
+                    subjecterror.innerHTML = ""; // initialize the content
+                    subjecterror.className = "error";
+                }
+
+                //test message
+                if (message.value.trim() == "") {
+                    // display error message if firstname is invalid
+                    message.className = "form-control invalid";
+                    messageerror.innerHTML = "Required, must not be empty !";
+                    messageerror.className = "error active";
+                    return false;
+                }
+                else {
+                    // remove error if the field is valid
+                    message.className = "form-control";
+                    messageerror.innerHTML = ""; // initialize the content
+                    messageerror.className = "error";
+                    success = true;
+                }
+
+                if (success) { 
+                    window.location = "file:///D:/becode/workspace/html_css/testing/pages/success.html";
+                    return false;
+                }
+            }
+
+            $("#validate").on("click", validateForm);
+        </script>
+        <script type="text/javascript">
+            function DisableBackButton() {
+                 window.history.forward()
+            }
+            DisableBackButton();
+            window.onload = DisableBackButton;
+            window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
+            window.onunload = function () { void (0) }
+        </script>
+        
+    </body>
+</html>
