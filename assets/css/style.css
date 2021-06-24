@@ -120,7 +120,18 @@ body {
 .w-100 {
   width: 100% !important;
 }
-/*# index.html*/
+
+.img-dim {
+  width:69px; 
+  height:58px;
+}
+
+.container-margin {
+  width:85%;
+  margin:auto;
+  margin-top:15px !important
+}
+
 
 /*#validation form*/
 /* formatting for errors  */
